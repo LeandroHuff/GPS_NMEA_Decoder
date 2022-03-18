@@ -18,7 +18,7 @@
                 HEREUNDER.
  */
 
-#include "defs.h"
+#include "../Resources/defs.h"
 #include "nmea.h"
 
 const char *strGP[ NMEA_MAX ] =

@@ -1,1 +1,1 @@
-../build-Debug/NMEADecoder/text.c.o ../build-Debug/NMEADecoder/nmea.c.o ../build-Debug/NMEADecoder/main.c.o
+../build-Debug/NMEADecoder/nmea.c.o ../build-Debug/NMEADecoder/text.c.o ../build-Debug/NMEADecoder/main.c.o

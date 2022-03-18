@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="../Resources/defs.h"/>
     <File Name="text.h"/>
     <File Name="text.c"/>
     <File Name="template.h" ExcludeProjConfig="Debug;"/>
@@ -100,7 +101,6 @@
     <File Name="NMEADecoder.project"/>
     <File Name="nmea.h"/>
     <File Name="nmea.c"/>
-    <File Name="defs.h"/>
     <File Name="compile_flags.txt"/>
     <File Name="gps.c" ExcludeProjConfig="Debug;"/>
     <File Name="gps.h" ExcludeProjConfig="Debug;"/>

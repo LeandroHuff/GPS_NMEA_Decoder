@@ -19,7 +19,7 @@
  */
 
 
-#include "defs.h"
+#include "../Resources/defs.h"
 
 const char *NULL_txt  = "NULL";
 const char *FALSE_txt = "FALSE";

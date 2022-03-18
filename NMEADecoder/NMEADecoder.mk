@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=leandro
-Date                   :=16/03/2022
+Date                   :=17/03/2022
 CodeLitePath           :=/home/leandro/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix) ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(ObjectSuffix) ../build-$(ConfigurationName)/NMEADecoder/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/NMEADecoder/nmea.c$(ObjectSuffix) ../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix) ../build-$(ConfigurationName)/NMEADecoder/main.c$(ObjectSuffix) 
 
 
 
@@ -91,14 +91,6 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix): text.c ../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/text.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/text.c$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix): text.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix) -MM text.c
-
-../build-$(ConfigurationName)/NMEADecoder/text.c$(PreprocessSuffix): text.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/NMEADecoder/text.c$(PreprocessSuffix) text.c
-
 ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(ObjectSuffix): nmea.c ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/nmea.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/nmea.c$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(DependSuffix): nmea.c
@@ -106,6 +98,14 @@ PreBuild:
 
 ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(PreprocessSuffix): nmea.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/NMEADecoder/nmea.c$(PreprocessSuffix) nmea.c
+
+../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix): text.c ../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/text.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/text.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix): text.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/NMEADecoder/text.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/NMEADecoder/text.c$(DependSuffix) -MM text.c
+
+../build-$(ConfigurationName)/NMEADecoder/text.c$(PreprocessSuffix): text.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/NMEADecoder/text.c$(PreprocessSuffix) text.c
 
 ../build-$(ConfigurationName)/NMEADecoder/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/NMEADecoder/main.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)

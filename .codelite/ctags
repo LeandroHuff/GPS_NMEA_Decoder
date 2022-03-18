@@ -1,3 +1,60 @@
+std	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^namespace std { template<typename _Tp> class shared_ptr {$/;"	namespace	line:1
+shared_ptr	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^namespace std { template<typename _Tp> class shared_ptr { $/;"	class	line:1	namespace:std
+operator ->	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^    _Tp* operator->();$/;"	prototype	line:2	class:std::shared_ptr	access:private	signature:()	returns:_Tp 
+reset	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^    void reset( Y* ptr );$/;"	prototype	line:3	class:std::shared_ptr	access:private	signature:( Y* ptr )	returns:void 
+reset	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^    void reset( Y* ptr, Deleter d );$/;"	prototype	line:4	class:std::shared_ptr	access:private	signature:( Y* ptr, Deleter d )	returns:void 
+reset	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^    void reset( Y* ptr, Deleter d, Alloc alloc );$/;"	prototype	line:5	class:std::shared_ptr	access:private	signature:( Y* ptr, Deleter d, Alloc alloc )	returns:void 
+get	/home/leandro/.codelite/tmp/codelite_templates.hpp	/^    _T* get() const;$/;"	prototype	line:6	class:std::shared_ptr	access:private	signature:() const	returns:_T 
+
+
+__DEFS_H__	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define __DEFS_H__$/;"	macro	line:23
+ERROR	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define ERROR        (-1) \/\/!< Value for generic errors.$/;"	macro	line:48
+ZERO	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define ZERO          0UL	\/\/!< Value zero for generic use.$/;"	macro	line:49
+ONE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define ONE           1UL \/\/!< Value one for generic use.$/;"	macro	line:50
+SAFE_TRUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define SAFE_TRUE  (0x55) \/\/!< True value for critical environment.$/;"	macro	line:51
+SAFE_FALSE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define SAFE_FALSE (0xAA) \/\/!< False value for critical environment.$/;"	macro	line:52
+s8_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef signed char             s8_t; \/\/!<  8-bit signed   integer type. $/;"	typedef	line:61
+u8_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned char           u8_t; \/\/!<  8-bit unsigned integer type. $/;"	typedef	line:62
+s16_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef signed short int       s16_t; \/\/!< 16-bit signed   integer type. $/;"	typedef	line:63
+u16_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned short int     u16_t; \/\/!< 16-bit unsigned integer type. $/;"	typedef	line:64
+s32_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef signed int             s32_t; \/\/!< 32-bit signed   integer type. $/;"	typedef	line:65
+u32_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned int           u32_t; \/\/!< 32-bit unsigned integer type. $/;"	typedef	line:66
+s64_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef signed long long int   s64_t; \/\/!< 64-bit signed   integer type. $/;"	typedef	line:67
+u64_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned long long int u64_t; \/\/!< 64-bit unsigned integer type. $/;"	typedef	line:68
+f32_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef float                  f32_t; \/\/!< 32-bit floating point   type. $/;"	typedef	line:69
+f64_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef double                 f64_t; \/\/!< 64-bit floating point   type. $/;"	typedef	line:70
+pchar_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef char *                 pchar_t; \/\/!< pointer to char or array of char. $/;"	typedef	line:72
+str_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef char *                 str_t;   \/\/!< pointer to char or array of char. $/;"	typedef	line:73
+NULL	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define NULL ((void*)0)$/;"	macro	line:76
+BYTE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned char           BYTE;  \/\/!<  8-bit unsigned integer type. $/;"	typedef	line:83
+WORD	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned short int      WORD;  \/\/!< 16-bit unsigned integer type. $/;"	typedef	line:84
+DWORD	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned long int      DWORD;  \/\/!< 32-bit unsigned integer type. $/;"	typedef	line:85
+QWORD	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef unsigned long long int QWORD;  \/\/!< 64-bit unsigned integer type. $/;"	typedef	line:86
+false	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   false = (BYTE)ZERO,						    \/\/!< 8-bit for false$/;"	enumerator	line:91	enum:__anon1
+true	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   true  = (BYTE)ONE,						      \/\/!< 8-bit for true$/;"	enumerator	line:92	enum:__anon1
+bool_t	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef enum {    false = (BYTE)ZERO,						    \/\/!< 8-bit for false    true  = (BYTE)ONE,						      \/\/!< 8-bit for true } __attribute__((__packed__)) bool_t; \/\/!< Generic boolean type $/;"	typedef	line:93	typeref:enum:__anon1
+FALSE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   FALSE = (BYTE)ZERO,						    \/\/!< 8-bit for false$/;"	enumerator	line:99	enum:__anon2
+TRUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   TRUE  = (BYTE)ONE,						      \/\/!< 8-bit for true$/;"	enumerator	line:100	enum:__anon2
+BOOL_T	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef enum {    FALSE = (BYTE)ZERO,						    \/\/!< 8-bit for false    TRUE  = (BYTE)ONE,						      \/\/!< 8-bit for true } __attribute__((__packed__)) BOOL_T; \/\/!< Generic boolean type $/;"	typedef	line:101	typeref:enum:__anon2
+S_TRUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   S_TRUE  = (BYTE)SAFE_TRUE,						      \/\/!< 8-bit for safety true$/;"	enumerator	line:106	enum:__anon3
+S_FALSE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^   S_FALSE = (BYTE)SAFE_FALSE,						    \/\/!< 8-bit for safety false$/;"	enumerator	line:107	enum:__anon3
+SAFETY_BOOL_T	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^typedef enum {    S_TRUE  = (BYTE)SAFE_TRUE,						      \/\/!< 8-bit for safety true    S_FALSE = (BYTE)SAFE_FALSE,						    \/\/!< 8-bit for safety false } __attribute__((__packed__)) SAFETY_BOOL_T;  \/\/!< Safety boolean type $/;"	typedef	line:108	typeref:enum:__anon3
+DEF_INT	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define DEF_INT(type, var)                 type var = 0;                          \/\/!< Declare an integer variable on memory and clear the space.$/;"	macro	line:114
+DEF_FLOAT	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define DEF_FLOAT(type, var)               type var = 0.0f;                       \/\/!< Declare a float variable on memory and clear the space.$/;"	macro	line:115
+DEF_STRUCT	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define DEF_STRUCT(st, var)                st var   = {0};                        \/\/!< Declare a structure on memory and clear the space.$/;"	macro	line:116
+DEF_BUFFER	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define DEF_BUFFER(type, buffer, elements) type buffer[elements] = {0};           \/\/!< Declare a buffer (vector) on memory.$/;"	macro	line:117
+CLR_BUFFER	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CLR_BUFFER(buffer)                 memset(buffer, ZERO, sizeof(buffer));  \/\/!< Clear buffer memory space.$/;"	macro	line:118
+CLR_MEMORY	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CLR_MEMORY(ptr,size)               memset(ptr, ZERO, size);               \/\/!< Clear buffer memory space pointed by ptr.$/;"	macro	line:119
+MALLOC	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define MALLOC(size)            malloc(size);                       \/\/!< Alloc memory for data size.$/;"	macro	line:124
+CALLOC	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CALLOC(type,num) (type*)calloc(num, sizeof(type));          \/\/!< Alloc memory for a num of data type size and clear itself.$/;"	macro	line:125
+FREE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define FREE(ptr)        if(ptr != NULL) { free(ptr); ptr = NULL; } \/\/!< Check valid pointer, release memory block and set pointer to NULL.$/;"	macro	line:126
+MIN_SIGNED_VALUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define MIN_SIGNED_VALUE(var) (-((2 ^ (sizeof( var ) * 8)) \/ 2))     \/\/!< Calc minimum value of a signed integer variable.$/;"	macro	line:131
+MAX_SIGNED_VALUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define MAX_SIGNED_VALUE(var)   ((2 ^ (sizeof( var ) * 8)) \/ 2 - 1)  \/\/!< Calc maximum value of a signed integer variable.$/;"	macro	line:132
+MAX_UNSIGNED_VALUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define MAX_UNSIGNED_VALUE(var) ((2 ^ (sizeof( var ) * 8)) - 1)      \/\/!< Calc maximum value of an unsigned integer variable.$/;"	macro	line:133
+UNUSED	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define UNUSED(var) ((void)var)                                         \/\/!< Declare an unused variable or function parameter.$/;"	macro	line:139
+CHECK_NULL_PTR	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CHECK_NULL_PTR(ptr,code)       if(ptr  == NULL){ return code; } \/\/!< Check null parameter pointer and return code.$/;"	macro	line:140
+CHECK_DIFF_VALUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CHECK_DIFF_VALUE(var,val,code) if(var != val)  { return code; } \/\/!< Compare parameter value and return code if different.$/;"	macro	line:141
+CHECK_EQU_VALUE	/home/leandro/Projects/GPS_NMEA_Decoder/NMEADecoder/../Resources/defs.h	/^#define CHECK_EQU_VALUE(var,val,code)  if(var == val)  { return code; } \/\/!< Compare parameter value and return code if equal.$/;"	macro	line:142
 
 
 
